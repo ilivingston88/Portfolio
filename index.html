@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Livingston</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h1>Ian Livingston</h1>
+        <p>
+            Analytically sharp and emotionally intelligent professional with a varied career history, excelling in high-paced SaaS environments. 
+            Skilled in technical troubleshooting and simplifying complex ideas for cross-functional teams. 
+            Demonstrates effective goal-oriented teamwork, combining a Midwestern work ethic with a Coloradan love for outdoor adventure. 
+            Eager to learn and grow in all areas of life.
+        </p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" style="background-image: url('assets/money.jpg');">
+            <a class="portfolio-item" href="https://lunularodds-5cbaee41912c.herokuapp.com/" target="_blank">
+                <div class="project-content">
+                    <h3>Sports Betting App</h3>
+                    <p>View Project</p>
+                    <div class="project-description">
+                        <p>
+                            Integrating a Django app with The Odds API, this app shows a list of events within the date range filter.
+                            Selecting the sporting event then displays bookmaker odds on that matchup.
+                        </p>
+                        <ul>
+                            <li>A GitHub repo and separate staging site for version control.</li>
+                            <li>Environmental variables to protect information like API keys.</li>
+                            <li>Models that store data to limit the number of API calls, and a Heroku PSQL database to store data.</li>
+                            <li>Heroku Scheduled tasks to handle fetching API data at regular intervals.</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!-- Repeat for other projects -->
+    </section>
+    <section id="strava-iframe">
+        <div class="content-section-heading">
+            <h2 class="text-secondary mb-0">Personal</h2>
+            <p>
+                I spend most of my free time outdoors.<br> 
+                Cycling is a longtime passion and I live with my girlfriend and our three dogs. 
+            </p>
+            <p>If I can bicycle, I bicycle<br>-David Attenborough</p>
+            <h6>Follow my rides or discover my routes on Strava!</h6>
+            <iframe height='200' width='350' frameborder='20' allowtransparency='true' scrolling='yes' src='https://www.strava.com/athletes/1883943/latest-rides/b0585d94aa47e2ffb3eb1a275c47a1189a23a37f'></iframe>                        
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Ian Livingston</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>

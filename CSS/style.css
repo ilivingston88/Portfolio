@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+#about {
+    background-color: #f4f4f4;
+}
+
+.project {
+    background-size: cover; /* Cover the entire area of the container */
+    background-position: center; /* Center the background image */
+    color: white; /* Ensures text is readable on top of the image */
+    text-align: center; /* Center the text */
+    padding: 50px 10px; /* Add padding to ensure text doesn't touch the edges */
+    margin: 10px 0; /* Keep existing margin */
+    position: relative; /* Needed for positioning the link appropriately */
+    max-width: 25rem;
+}
+
+.project-content {
+    position: relative; /* Ensures content is positioned over the background */
+    display: inline-block; /* Aligns content to center */
+    background: rgba(0, 0, 0, 0.7); /* Optional: dark overlay to enhance readability */
+    padding: 20px; /* Padding around the text content */
+    border-radius: 5px; /* Optional: rounds the corners of the text background */
+    max-width: 25rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.portfolio-item {
+    color: inherit; /* Inherits the white color for links */
+    text-decoration: none; /* Removes underline */
+}
+
+.button-content {
+    display: flex; /* Aligns image and text side by side */
+    align-items: center; /* Centers items vertically */
+    justify-content: center; /* Center align the content for better visual */
+}
+
+.button-image {
+    width: auto; /* Adjust based on your preference */
+    height: 60px; /* Makes the image smaller and manageable */
+    margin-right: 10px; /* Adds spacing between the image and the text */
+}
+
+.text-content h3, .text-content p {
+    margin: 0; /* Removes default margins */
+    color: #5b5c5d; /* Text color for emphasis */
+}
+
